@@ -1,0 +1,55 @@
+#home-wrapper{
+	margin: 0 10%;
+	background-color: #f4fefd;
+	padding-top: .1rem;
+	-webkit-clip-path: 
+		polygon(4rem 0, calc(100% - 4rem) 0, 100% 4rem, 100% calc(100% - 4rem),
+		calc(100% - 4rem) 100%,
+		4rem 100%, 0 calc(100% - 4rem), 0 4rem);
+	clip-path:
+	 		polygon(4rem 0, calc(100% - 4rem) 0, 100% 4rem, 100% calc(100% - 4rem),
+	 		calc(100% - 4rem) 100%,
+	 		4rem 100%, 0 calc(100% - 4rem), 0 4rem);
+
+
+}
+
+.main{
+
+}
+
+.main-content{
+	overflow: auto;
+
+}
+
+.main-background{
+	background-image: url("/images/Flightpath-Dripstr-1.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width: auto;
+	max-width: 75%;
+	margin: $margin-2 auto;
+	
+
+}
+
+
+
+
+
+
+.maps{
+	margin: 0 auto;
+
+	#pop-up{
+		width: 100%;
+		height: 40rem;
+		max-width:40rem;
+		margin: 0 auto;
+		display: block;
+	
+	}
+
+}

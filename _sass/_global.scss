@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+	// border: 1px solid red;
+}
+
+html{
+	font-size: 10px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background: linear-gradient($yellow 45%, $turquoise 20%, $turquoise 80%, $blue 0);
+	background-size: 100%;
+	background-color: $yellow;
+
+}
+
+h1, h2, h3, h4, h5, h6, p, {
+	font-family: 'abril-text', sans-serif;
+	color: $turquoise;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	
+	&:hover{
+		color: $dark_grey;
+	}
+	&:visited{
+		color:inherit;
+	}
+	
+}
+
+p{
+	font-size: 1.6rem;
+	line-height: 1.6em;
+}
+
+
+
+

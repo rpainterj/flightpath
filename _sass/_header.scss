@@ -1,0 +1,51 @@
+.site_header{
+
+}
+
+.logo{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: grey;
+	@include huhver;
+}
+
+#title{
+	font-size: 6rem;
+	text-align: center;
+	font-family: "Oleo Script";
+	font-weight: normal;
+	padding-top: .1rem;
+}
+
+.nav-list{
+	padding: 0;
+	margin: 0 20%;
+}
+
+.nav-list li{
+	display: inline-block;
+	
+}
+
+.nav-list a{
+	display:inline-block;
+	width: 32%;
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Lato';
+	padding: $padding-1 0;
+
+	&:hover{
+		
+	}
+}
+
+
+.nav-active{
+    color: $turquoise;
+}
+
+
+
+
