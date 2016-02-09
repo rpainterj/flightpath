@@ -13,7 +13,14 @@
 }
 
 
+.spacer{
+    height: 10rem;
+    width: auto;
+}
 
+.floats{
+    @include clearfix;
+}
 
 
 
