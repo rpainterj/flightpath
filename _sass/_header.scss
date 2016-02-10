@@ -20,7 +20,10 @@
 
 .nav-list{
 	padding: 0;
-	margin: 0 25%;
+	margin: 0 10%;
+	@include media(800px){
+		margin: 0 25%;
+	}
 }
 
 .nav-list li{
@@ -31,15 +34,15 @@
 .nav-list a{
 	display:inline-block;
 	width: 32%;
-	font-size: 2rem;
+	font-size: 2.2rem;
 	text-align: center;
 	font-family: 'Cabin';
 	padding: $padding-1 0;
-
+	border: 2px solid #f4fefd;
+	color: $turquoise;
 
 	&:hover{
-		border-bottom: 2px solid $blue;
-		box-sizing: content-box;
+		border-bottom: 2px solid $turquoise;
 		
 	}
 }

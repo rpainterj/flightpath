@@ -1,0 +1,64 @@
+.menu{
+	
+	}
+
+.about-section{
+	border-bottom: 2px dashed $blue;
+	padding: 2rem 5%;
+	max-width: 600px;
+	margin: 2rem auto 4rem auto;
+
+	p{font-family: 'Cabin';}
+}
+
+.menu-title{
+	font-size: 3rem;
+	font-weight: normal;
+	font-family: 'Oleo Script';
+	text-align: center;
+
+}
+
+h2{
+	font-size: 3rem;
+	font-family: 'Cabin';
+}
+
+.food-section, .sweet-section{
+	padding: 0 5%;
+	margin: 0 auto;
+	max-width: 600px;
+
+}
+
+.menu-options{
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu-item{
+	@include clearfix;
+	h5{
+		font-size: 2rem;
+		display: inline;
+		font-family: 'Cabin';
+	}
+
+	.item{
+		float: left;
+	}
+
+	.price{
+		float: right;
+	}
+
+	span{
+		clear: both;
+		font-family: 'Cabin';
+		float: left;
+		font-size: 1.6rem;
+		color: $turquoise;
+	}
+
+
+}
