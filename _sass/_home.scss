@@ -2,14 +2,6 @@
 	margin: 0 2%;
 	background-color: #f4fefd;
 	padding-top: .1rem;
-	// -webkit-clip-path: 
-	// 	polygon(4rem 0, calc(100% - 4rem) 0, 100% 4rem, 100% calc(100% - 4rem),
-	// 	calc(100% - 4rem) 100%,
-	// 	4rem 100%, 0 calc(100% - 4rem), 0 4rem);
-	// clip-path:
-	//  		polygon(4rem 0, calc(100% - 4rem) 0, 100% 4rem, 100% calc(100% - 4rem),
-	//  		calc(100% - 4rem) 100%,
-	//  		4rem 100%, 0 calc(100% - 4rem), 0 4rem);
 	
 	@include media(800px){
 		margin: 0 8%;
