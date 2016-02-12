@@ -4,11 +4,11 @@
 	max-width: 600px;
 	margin: 2rem auto 4rem auto;
 
-	p{font-family: 'Cabin';}
+	p{font-family: 'Cabin', sans-serif;}
 }
 
 .about-header{
-	font-family: 'Oleo Script';
+	font-family: 'Oleo Script', sans-serif;
 	font-weight: normal;
 	text-align: center;
 	font-size: 3rem;
@@ -16,12 +16,12 @@
 
 .contact{
 	text-align: center;
-	.address{font-weight: normal;
-		font-size: 2rem;}
+	.address{font-size: 2rem;}
+	
 	a{
 		font-size: 2rem;
 		color: $turquoise;
-		font-family: 'Cabin';
+		font-family: 'Cabin', sans-serif;
 	}
 }
 
